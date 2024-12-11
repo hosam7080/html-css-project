@@ -159,6 +159,42 @@ iframe {
 	width: 25px;
 	height: 25px;
 }
+
+.contact-input {
+	padding: 6px 12px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #212529;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+
+}
+
+.contact-input:focus {
+	color: #212529;
+	border-color: #86b7fe;
+	outline: 0;
+	box-shadow: 0 0 0 5px rgb(13 110 253 / 25%);
+}
+
+.contact-button {
+	cursor: pointer;
+	font-weight: bold;
+	line-height: 1.5;
+	background-color: transparent;
+	border: 1px solid;
+	padding: 6px 12px;
+	border-radius: .25rem;
+	color: #0d2e5f;
+	border-color: #0d2e5f;
+
+}
+
+.contact-button:hover {
+	color: #fff;
+	background-color: #0d2e5f;
+	border-color: #0d2e5f;
+}
 /* End Contact Page */
 
 /* Start slider page */
